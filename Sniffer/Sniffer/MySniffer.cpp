@@ -60,7 +60,7 @@ void MySniffer::listenEthernet(std::string ip, std::string fileName)
     }
     else
     {
-        std::cout << "Socket RAW not binded " << WSAGetLastError() << std::endl;
+        std::cout << "Socket RAW not binded, check ip " << WSAGetLastError() << std::endl;
         closesocket(m_socket);
         WSACleanup();
         return;
