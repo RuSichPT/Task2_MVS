@@ -1,4 +1,8 @@
-/Sniffer/Debug/Sniffer.exe
+/Sniffer/Debug
 /Sniffer/Sniffer/Debug
-/Sniffer/Snifferdata.log
-
+/Sniffer/Sniffer/data.log
+/Sniffer/.vs
+/Sniffer/x64
+/Sniffer/Sniffer/x64
+/Sniffer/Release
+/Sniffer/Sniffer/Release
